@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
+  position: relative;
+  background: #f2f2f2;
 }
 
 .container {
@@ -26,15 +28,17 @@ li {
 .button {
   transition: 0.2s;
   font-family: "Nunito", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 1.375em;
   text-decoration: none;
   color: white;
   background: rgba(199, 161, 122, 1);
   border-radius: 35px;
-  padding: 6px 15px 8px 17px;
-  box-sizing: border-box;
+  padding: 6px 20px 6px 20px;
+  display: inline-block;
+  width: fit-content;
+  letter-spacing: 0.05em;
 }
 
 .button:hover {
@@ -140,6 +144,7 @@ header {
   color: rgba(237, 240, 245, 1);
   text-decoration: none;
   text-transform: uppercase;
+  transition: all 0.3s;
 }
 
 .header__link:hover {
@@ -206,6 +211,44 @@ nav {
 .coffee {
   padding: 127px 0;
   background: url("../img/BG-coffee.jpg") left no-repeat;
+  position: relative;
+}
+
+.coffee__card {
+  width: 560px;
+  height: 256px;
+  display: flex;
+  background: rgba(237, 240, 245, 1);
+  transition: 0.2s;
+}
+
+.coffee__title {
+  margin-bottom: 60px;
+}
+
+.coffee__card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.coffee__card-info {
+  background: white;
+  width: 100%;
+  padding: 42px 0 44px 45px;
+}
+
+.coffee__details {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 29px;
+}
+
+.coffee__info {
+  text-align: start;
+  margin: 25px 0;
+}
+
+.coffee__price {
+  margin-bottom: 8px;
 }
 /* coffee  */
 /************* header  *************/
@@ -224,3 +267,56 @@ nav {
 /* header  */
 /************* header  *************/
 /* header  */
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: none;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  height: 48px;
+  width: 48px;
+  background: rgba(199, 161, 122, 1);
+  border-radius: 50%;
+  margin-top: -42px;
+}
+
+.swiper-button-next {
+  margin-right: 66px;
+}
+
+.swiper-button-prev {
+  margin-left: 66px;
+}
+
+.swiper-button-prev img {
+  transform: rotateY(180deg);
+}
+
+.swiper-container {
+  padding: 10px 0;
+}
+
+.coffee__slider {
+  height: 576px;
+}
+
+.coffee__card-slider {
+  height: calc(100% / 2);
+  overflow: hidden;
+}
+
+.coffee__slider-wrapper {
+  padding-left: 200px;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  display: none;
+}
