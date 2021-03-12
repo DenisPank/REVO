@@ -113,13 +113,14 @@ h2 span {
   color: rgba(199, 161, 122, 1);
 }
 
-.old-number {
+.new-number span {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 1.364em;
   text-decoration-line: line-through;
   color: rgba(65, 81, 103, 1);
+  margin-left: 20px;
 }
 
 .free-object {
@@ -219,11 +220,10 @@ nav {
   padding: 127px 0;
   background: url("../img/BG-coffee.jpg") 0 0 / auto 100% no-repeat;
   position: relative;
-  height: 894px;
 }
 
 .coffee__card {
-  width: 560px;
+  width: 600px;
   height: 256px;
   display: flex;
   background: rgba(237, 240, 245, 1);
@@ -235,13 +235,13 @@ nav {
 }
 
 .coffee__card:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .coffee__card-info {
   background: white;
   width: 100%;
-  padding: 42px 0 44px 45px;
+  padding: 42px 0 44px 60px;
 }
 
 .coffee__details {
@@ -298,17 +298,13 @@ nav {
 
 .coffee__slider {
   width: 90%;
-  position: absolute;
-  right: 0;
-}
-
-.coffee__slider {
+  margin-right: 0;
   height: 576px;
+  padding: 5px;
 }
 
 .coffee__card-slider {
   height: calc(100% / 2);
-  overflow: hidden;
 }
 /* coffee  */
 /************* giftset  *************/
@@ -431,12 +427,91 @@ nav {
   padding: 88px 0 128px;
 }
 
-.combo__block {
-  width: 400px;
-  height: 200px;
-  background: black;
+.combo__card {
+  width: 360px;
+  height: 590px;
+  background: white;
+  transition: 0.2s;
+}
+
+.combo__card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.combo__img {
+  width: 100%;
+  background: rgba(237, 240, 245, 1);
+}
+
+.combo__slider {
+  margin-left: 128px;
+  margin-top: 64px;
+  padding: 10px;
+}
+
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: none;
+}
+
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: none;
+}
+
+.combo__swiper-prev img {
+  transform: rotate(180deg);
+}
+
+.combo__swiper-prev,
+.combo__swiper-next {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(199, 161, 122, 1);
+}
+
+.combo__details {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 29px;
+  font-weight: 700;
+  color: rgba(65, 81, 103, 1);
+}
+
+.combo__text {
+  text-align: start;
+  margin-bottom: 32px;
+}
+
+.combo__card-text {
+  padding: 40px;
+}
+
+.combo__card-title {
+  margin: 10px 0;
+}
+
+.combo__card-text .flex {
+  align-items: baseline;
+  justify-content: space-between;
 }
 /* combo  */
+/************* footer  *************/
+.footer {
+  background: rgba(237, 240, 245, 1);
+  padding: 18px 0 20px;
+}
+
+.footer__text {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: rgba(65, 81, 103, 1);
+  font-size: 16px;
+  line-height: 1.375em;
+}
+/* footer  */
 /************* header  *************/
 /* header  */
 /************* header  *************/
@@ -446,6 +521,4 @@ nav {
 /************* header  *************/
 /* header  */
 /************* header  *************/
-/* header  */
-/************* header  *************/
-/* header  */
+/* header  */ ;

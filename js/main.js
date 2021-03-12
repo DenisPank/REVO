@@ -26,4 +26,5 @@ new Swiper(".combo__slider", {
   },
   slidesPerView: 1,
   slidesPerView: 3.2,
+  loop: true,
 });
