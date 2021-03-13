@@ -168,9 +168,9 @@ header {
 }
 
 nav {
-  height: 100%;
   background: rgba(65, 81, 103, 1);
   position: absolute;
+  height: 100%;
   width: 251px;
   align-items: center;
   right: 0;
@@ -183,12 +183,27 @@ nav {
 .header__shopping-cart {
   width: 24px;
   height: 24px;
+  margin-bottom: 90px;
 }
 
 .header__logo {
   left: 22%;
   top: 10%;
   z-index: 1;
+}
+
+.header__video-screen img {
+  display: block;
+  background: white;
+  width: 54px;
+  height: 54px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
 }
 
 /* header  */
@@ -544,7 +559,7 @@ nav {
 }
 
 .header__menu .header__shopping-cart,
-.header__link {
+.header__menu .header__link {
   display: block;
   margin-top: 30px;
   padding: 0 0 0 30px;

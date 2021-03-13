@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="style/media.css" />
   </head>
   <body>
-    <header>
+    <header class="header" id="header">
       <img src="img/revo_logo.png" alt="#" class="header__logo free-object" />
       <h1 class="header__title">YOUR <span>PERSONALIZED</span> COFFEE</h1>
       <div class="header__video-screen free-object">
-        <img src="img/arrow.svg" alt="#" class="header__video-button" />
+        <a href="https://www.youtube.com/watch?v=NmCTnxKNTfg" target="_blank">
+          <img src="img/arrow.svg" alt="#" class="header__video-button" />
+        </a>
       </div>
       <nav class="header__navbar grid">
         <img
@@ -32,12 +34,12 @@
           alt="#"
           class="header__shopping-cart"
         />
-        <a href="#" class="header__link">TRANG CHỦ</a>
-        <a href="#" class="header__link">COFFEE</a>
-        <a href="#" class="header__link">PHIN MẠ MÀU</a>
-        <a href="#" class="header__link">COMBO PHIN PHÊ</a>
-        <a href="#" class="header__link">GIFTSET</a>
-        <a href="#" class="header__link">LIÊN HỆ</a>
+        <a href="#header" class="header__link scrollto">TRANG CHỦ</a>
+        <a href="#Features" class="header__link scrollto">COFFEE</a>
+        <a href="#coffee" class="header__link scrollto">PHIN MẠ MÀU</a>
+        <a href="#giftset" class="header__link scrollto">COMBO PHIN PHÊ</a>
+        <a href="#combo" class="header__link scrollto">GIFTSET</a>
+        <a href="#footer" class="header__link scrollto">LIÊN HỆ</a>
       </nav>
       <div class="header__menu">
         <img
@@ -45,16 +47,16 @@
           alt="#"
           class="header__shopping-cart"
         />
-        <a href="#" class="header__link">TRANG CHỦ</a>
-        <a href="#" class="header__link">COFFEE</a>
-        <a href="#" class="header__link">PHIN MẠ MÀU</a>
-        <a href="#" class="header__link">COMBO PHIN PHÊ</a>
-        <a href="#" class="header__link">GIFTSET</a>
-        <a href="#" class="header__link">LIÊN HỆ</a>
+        <a href="#header" class="header__link scrollto">TRANG CHỦ</a>
+        <a href="#Features" class="header__link scrollto">COFFEE</a>
+        <a href="#coffee" class="header__link scrollto">PHIN MẠ MÀU</a>
+        <a href="#giftset" class="header__link scrollto">COMBO PHIN PHÊ</a>
+        <a href="#combo" class="header__link scrollto">GIFTSET</a>
+        <a href="#footer" class="header__link scrollto">LIÊN HỆ</a>
       </div>
       <div class="header__hamburger"><span></span></div>
     </header>
-    <section class="Features">
+    <section class="Features" id="Features">
       <div class="container">
         <h2 class="Features__title">
           <span>Your Personalized Coffee</span>
@@ -96,7 +98,7 @@
         </ul>
       </div>
     </section>
-    <section class="coffee">
+    <section class="coffee" id="coffee">
       <h2 class="coffee__title">
         <span>Choose Your Favorite</span>
         CHUAN GU ĐÚNG VI
@@ -202,7 +204,7 @@
         <div class="coffee__pagination swiper-pagination"></div>
       </div>
     </section>
-    <section class="giftset">
+    <section class="giftset" id="giftset">
       <h2 class="giftset__title">
         <span>Best Gift For Best Friend</span>
         GIFTSET
@@ -316,7 +318,7 @@
         <div class="giftset__pagination swiper-pagination"></div>
       </div>
     </section>
-    <section class="combo">
+    <section class="combo" id="combo">
       <h2 class="combo__title">
         <span>Your Personalized Coffee</span>
         COMBO PHIN PHÊ
@@ -417,7 +419,7 @@
         <div class="combo__pagination swiper-pagination"></div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <p class="footer__text">© Revo Coffee Việt Nam - 2018</p>
       </div>

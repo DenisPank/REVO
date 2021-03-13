@@ -44,6 +44,11 @@
     margin-left: 0;
     padding: 10px 0;
   }
+
+  h1 {
+    font-size: 30px;
+    width: fit-content;
+  }
 }
 @media screen and (max-width: 768px) {
   .container,
@@ -90,11 +95,6 @@
 
   h2 {
     color: rgba(35, 44, 56, 1);
-  }
-
-  h1 {
-    font-size: 30px;
-    width: fit-content;
   }
 
   .giftdet__slider {
