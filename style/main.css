@@ -257,6 +257,7 @@ nav {
   background: white;
   width: 100%;
   padding: 42px 0 44px 60px;
+  overflow: auto;
 }
 
 .coffee__details {
@@ -359,7 +360,8 @@ nav {
 
 .giftset__card-info {
   width: 443px;
-  height: 330px;
+  height: 331px;
+  overflow: auto;
 }
 
 .giftset__img {
