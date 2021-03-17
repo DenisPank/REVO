@@ -3,6 +3,7 @@ new Swiper(".coffee__slider", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  spaceBetween: 50,
   slidesPerView: 2.1,
   slidesPerColumn: 2,
   pagination: {
@@ -14,12 +15,13 @@ new Swiper(".coffee__slider", {
       slidesPerView: 3,
     },
     1400: {
-      slidesPerView: 2.1,
+      slidesPerView: 2.25,
     },
 
     768: {
       slidesPerColumn: 2,
       slidesPerView: 1,
+      centeredSlides: true,
     },
 
     319: {
@@ -29,9 +31,12 @@ new Swiper(".coffee__slider", {
   },
 });
 
-var swiper = new Swiper(".giftset__slider", {
+new Swiper(".giftset__slider", {
   direction: "vertical",
-  spaceBetween: 60,
+  simulateTouch: false,
+  touchRatio: 0,
+  // spaceBetween: 60,
+  effect: "fade",
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -52,13 +57,13 @@ new Swiper(".combo__slider", {
   },
   slidesPerView: 1,
   slidesPerView: 3.2,
-  loop: true,
+  // loop: true,
   breakpoints: {
     3000: {
       slidesPerView: 5,
     },
 
-    1400: {
+    1366: {
       slidesPerView: 3.2,
     },
 
