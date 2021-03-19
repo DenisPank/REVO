@@ -31,7 +31,6 @@ new Swiper(".coffee__slider", {
       slidesPerColumn: 2,
       slidesPerView: 1,
       spaceBetween: 30,
-      // centeredSlides: true,
     },
 
     577: {
@@ -61,7 +60,6 @@ new Swiper(".giftset__slider", {
   direction: "vertical",
   simulateTouch: false,
   touchRatio: 0,
-  // spaceBetween: 60,
   effect: "fade",
   pagination: {
     el: ".swiper-pagination",
@@ -83,7 +81,6 @@ new Swiper(".combo__slider", {
   },
   slidesPerView: 1,
   slidesPerView: 3.2,
-  // loop: true,
   breakpoints: {
     3000: {
       slidesPerView: 5,
