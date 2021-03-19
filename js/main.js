@@ -14,19 +14,45 @@ new Swiper(".coffee__slider", {
     3000: {
       slidesPerView: 3,
     },
-    1400: {
+
+    1920: {
+      slidesPerView: 3,
+    },
+
+    1366: {
       slidesPerView: 2.25,
     },
 
-    768: {
-      slidesPerColumn: 2,
-      slidesPerView: 1,
-      centeredSlides: true,
+    1200: {
+      slidesPerView: 2,
     },
 
-    319: {
+    769: {
+      slidesPerColumn: 2,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      // centeredSlides: true,
+    },
+
+    577: {
+      slidesPerView: 2,
+      slidesPerColumn: 1,
+      spaceBetween: 0,
+    },
+    426: {
       slidesPerView: 1,
       slidesPerColumn: 1,
+      spaceBetween: 0,
+    },
+    376: {
+      slidesPerView: 1,
+      slidesPerColumn: 1,
+      spaceBetween: 0,
+    },
+    320: {
+      slidesPerView: 1,
+      slidesPerColumn: 1,
+      spaceBetween: 0,
     },
   },
 });
@@ -63,8 +89,16 @@ new Swiper(".combo__slider", {
       slidesPerView: 5,
     },
 
+    1920: {
+      slidesPerView: 4,
+    },
+
     1366: {
-      slidesPerView: 3.2,
+      slidesPerView: 2.25,
+    },
+
+    1200: {
+      slidesPerView: 3,
     },
 
     768: {
