@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Nunito", sans-serif;
   position: relative;
-  background: #fff;
+  background: #f2f2f2;
 }
 
 * {
@@ -659,6 +659,12 @@ nav {
 
 body.lock {
   overflow: hidden;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transition: 0.2s;
+  opacity: 0.7;
 }
 
 /* hamburger  */
