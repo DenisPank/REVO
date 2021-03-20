@@ -91,7 +91,7 @@ new Swiper(".combo__slider", {
     },
 
     1366: {
-      slidesPerView: 2.25,
+      slidesPerView: 3.25,
     },
 
     1200: {

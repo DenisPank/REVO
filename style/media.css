@@ -27,7 +27,7 @@
     grid-gap: 30px;
   }
   .container {
-    width: 1024px;
+    width: 992px;
   }
 
   .combo__swiper-next {
@@ -273,6 +273,13 @@
 
   .combo__title {
     color: white;
+  }
+
+  .combo__swiper-prev {
+    transform: translate(0px, -25px);
+  }
+  .combo__swiper-next {
+    transform: translate(0px, -25px);
   }
 }
 
