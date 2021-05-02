@@ -177,7 +177,7 @@ nav {
   width: 251px;
   grid-template-rows: 1fr auto auto auto auto auto;
   grid-gap: 30px;
-  padding: 75px 60px 260px 55px;
+  padding: 75px 50px 260px 55px;
   box-sizing: border-box;
   margin-left: auto;
 }
