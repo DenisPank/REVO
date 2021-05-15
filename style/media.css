@@ -49,6 +49,10 @@
     color: white;
   }
 
+  .container {
+    width: 768px;
+  }
+
   h1,
   .header__logo-white {
     left: 60px;
